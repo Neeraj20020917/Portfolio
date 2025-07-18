@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portofolio!</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+     <header>
+       <div class="header_content">
+          <a href="#home">Home</a>
+          <a href="#about_me">About me</a> 
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+       </div>
+     </header>
+     
+     <br><br>
+     
+     <section id="home" class="home">
+       <h2>Neeraj Kumar</h2>
+       <p>Aspiring Web Developer | Creative Thinker<br><br>
+
+       Welcome to my personal portfolio. I build responsive and clean websites using HTML, CSS, and JavaScript.</p>
+     </section>
+     
+     <br><br>
+     
+     <section id="about_me" class="about_me">
+       <h2>About</h2>
+       <p>I am a passionate learner and aspiring web developer with a strong interest in front-end development.
+       I enjoy solving problems and continuously learning new skills. My goal is to contribute to real-world
+       projects and become a full-stack developer. I have a strong foundation in programming and love working 
+       on creative ideas.</p>
+     </section>
+     
+     <br><br>
+     
+     <section id="skills" class="skills">
+       <h2>Skills</h2>
+       <label>HTML:</label>
+       <progress value="90" max="100"></progress><br><br>
+        <label>CSS:</label>
+       <progress value="80" max="100"></progress><br><br>
+       <label>JavaScript:</label>
+       <progress value="70" max="100"></progress><br><br>
+       <label>Java:</label>
+       <progress value="80" max="100"></progress><br><br>
+       <label>Python:</label>
+       <progress value="80" max="100"></progress><br>
+     </section>
+     
+     <br><br>
+     
+     <section id="projects" class="projects">
+       <h2>Projects</h2>
+       <div class="p1">
+         <h2>Project 1</h2>
+         <p>
+            A responsive portfolio website to showcase my profile and projects.<br><br>
+           <strong>Technologies:</strong> HTML, CSS
+         </p>
+         <a href="https://gudembannuruneerajkumar.github.io/Neeraj-website/about_b.html">Live Demo</a>
+       </div>
+       <br><br>
+       <div class="p2">
+         <h2>Project 2</h2>
+         <p>
+          Clone of Apna Notes<br><br>
+          <strong>Technologies:</strong> HTML, CSS, JavaScript
+         </p>
+         <a href="https://gudembannuruneerajkumar.github.io/Apan_Note_Nrk/apna_nrk.html">Live Demo</a>
+       </div>
+     </section>
+     
+     <br><br>
+     
+     <section id="education" class="education">
+       <h2>Education</h2>
+       <ul>
+         <li><strong>SSS</strong> - Montessori E.M High School, 2019.</li><br>
+         <li><strong>Intermediate</strong> - Narayana Jr. College, 2020.</li><br>
+          <li><strong>B.Tech</strong> - G.Pulla Reddy Engg. College (Autonomous), 2022.</li>
+       </ul>
+     </section>
+     
+     <br><br>
+     
+     <footer id="contact" class="contact">
+       <center>
+         <h2>Contact</h2>
+         <form>
+            <input type="text" placeholder="Your Name.." required><br><br>
+            <input type="email" placeholder="Your Email.." required><br><br>
+           <textarea type="text" placeholder="Type something.." required></textarea>
+         </form>
+         <br>
+         <button onclick="send()">Send</button><br><br>
+         or contact with <div class="M_L"><button><a href="https://mail.google.com/mail/u/1/#inbox">M</a></button>&emsp;<button><a href="https://www.linkedin.com/feed/">li</a></button></div>
+         </center>
+       
+     </footer>
+ <script>
+   function send(){
+    alert("Please fill all details correctly!!");
+   }
+</script>
+  </body>
+</html>

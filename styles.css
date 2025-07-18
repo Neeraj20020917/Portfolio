@@ -1,0 +1,248 @@
+body{
+
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to left, orange, pink);
+
+}
+
+
+header{
+
+  background: linear-gradient(to left, black, gray);
+
+  padding:10px;
+
+  border-radius:10px;
+
+}
+
+
+
+.header_content{
+
+  
+  display:flex;
+
+  justify-content: center;
+
+  gap:50px;
+
+}
+
+
+
+.header_content a{
+
+  text-decoration: none;
+
+  color:white;
+
+  font-weight: bold;
+
+  transition:all 0.3s ease;
+
+ 
+}
+
+
+
+.header_content a:hover{
+
+  background: linear-gradient(to right, lightgray, pink);
+
+  border-radius:5px;
+
+  padding:3px;
+ 
+ color:blue;
+
+  transform: scale(1.2);
+
+}
+
+
+
+/* top is for header*/
+
+
+
+h2{
+
+  colr:black;
+
+}
+
+
+h2:hover{
+
+  color:#8F00FF;
+
+}
+
+
+.home, .about_me, .skills, .projects, .education, .contact{
+
+  margin-left:10%;
+
+  background: linear-gradient(to right, green, lightblue);
+
+  border-radius:10px;
+
+  padding:10px;
+
+  height: 30%;
+
+  width:80%;
+
+  transition: 0.3s ease;
+
+}
+
+
+.home:hover, .about_me:hover, .skills:hover, .projects:hover, .education:hover, .contact:hover{
+
+  
+  background:linear-gradient(to right, lightblue, green);
+
+  transform:scale(1.1);
+
+}
+
+
+
+.p1, .p2{
+
+  background: linear-gradient(to right, white, pink);
+
+  padding:5px;
+
+  border-radius: 5px;
+
+  width: 80%;
+
+  margin-left:10%;
+
+  transition: all 0.3s ease;
+
+}
+
+
+.p1:hover, .p2:hover{
+
+  color:#8F00FF;
+
+  transform:scale(0.95);
+
+}
+
+
+.p1 a, .p2 a{
+
+  text-decoration: none;
+
+  background-color:blue;
+
+  color:white;
+
+  border:none;
+
+  padding:3px;
+
+  border-radius:5px;
+
+  transition:all 0.3s ease;
+
+}
+
+
+.p1 a:hover, .p2 a:hover{
+
+  background-color:#8F00FF;
+
+  transform: scale(1.2);
+
+}
+
+.p1 a:active, .p2 a:active{
+  background-color:blue;
+
+}
+
+
+
+form input{
+
+  height: 30px;
+
+  width:200px;
+
+  border-radius:5px;
+
+  border:none;
+}
+
+
+form textarea{
+
+  height:50px;
+
+  width: 200px;
+
+  border-radius:5px;
+
+  border:none;
+
+}
+
+
+.contact button{
+
+  height:30px;
+
+  border:none;
+
+  border-radius:10px;
+
+  width:80px;
+
+  background-color:blue;
+
+  color:white;
+
+  transition: 0.3s ease;
+
+}
+
+
+
+.contact button:hover{
+
+  background-color: pink;
+
+  color:black;
+
+  transform: scale(1.2);
+
+}
+
+
+.M_L button{
+
+ 
+  height:30px;
+
+  width:40px;
+
+  color:black;
+
+  background-color: white;
+
+}
+
+
+
+.M_L button a{
+
+   text-decoration: none;
+
+}
